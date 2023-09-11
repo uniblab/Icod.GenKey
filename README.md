@@ -8,11 +8,11 @@ Displays this text.
 `GenKey.exe --copyright`
 Displays copyright and licensing information.
 
-`GenKey.exe [--len length] [--clip]`
+`GenKey.exe [(-l | --len | /len) length] [(--clip | /clip)]`
 GenKey.exe generates a cryptographically secure sequence of hex-encoded bytes.
-The optional /len argument specifies the length of the key, in bytes.
+The optional len argument specifies the length of the key, in bytes.
 The default key length is 32 bytes.
-If present, the /clip argument specifies the output should also be copied to the clipboard.
+If present, the clip argument specifies the output should also be copied to the clipboard.
 Examples:
 ```sh
 GenKey.exe

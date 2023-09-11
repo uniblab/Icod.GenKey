@@ -98,11 +98,13 @@ namespace Icod.GenKey {
 
 		private static void PrintUsage() {
 			System.Console.Error.WriteLine( "No, no, no! Use it like this, Einstein:" );
-			System.Console.Error.WriteLine( "GenKey.exe [--len length] [--clip]" );
+			System.Console.Error.WriteLine( "GenKey.exe (-h | --help | /help)" );
+			System.Console.Error.WriteLine( "GenKey.exe (-c | --copyright | /copyright)" );
+			System.Console.Error.WriteLine( "GenKey.exe [(-l | --len | /len) length] [(--clip | /clip)]" );
 			System.Console.Error.WriteLine( "GenKey.exe generates a cryptographically secure sequence of hex-encoded bytes." );
-			System.Console.Error.WriteLine( "The optional --len argument specifies the length of the key, in bytes." );
+			System.Console.Error.WriteLine( "The optional len argument specifies the length of the key, in bytes." );
 			System.Console.Error.WriteLine( "The default key length is 32 bytes." );
-			System.Console.Error.WriteLine( "If present, the --clip argument specifies the output should also be copied to the clipboard." );
+			System.Console.Error.WriteLine( "If present, the clip argument specifies the output should also be copied to the clipboard." );
 			System.Console.Error.WriteLine( "Example: GenKey.exe" );
 			System.Console.Error.WriteLine( "Example: GenKey.exe --len 64" );
 			System.Console.Error.WriteLine( "Example: GenKey.exe --len 128 --clip" );
