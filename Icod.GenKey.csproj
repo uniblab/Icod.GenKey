@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     GenKey.exe generates a cryptographically secure sequence of hex-encoded bytes.
-    Copyright (C) 2023 Timothy J. Bruce
+    Copyright (C) 2025 Timothy J. Bruce
 -->
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
@@ -14,7 +14,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Icod.Argh" Version="1.1.1" />
+	  <PackageReference Include="Icod.Argh" Version="1.1.2" />
 	  <PackageReference Include="TextCopy" Version="6.2.1" />
 	</ItemGroup>
 </Project>

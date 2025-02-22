@@ -1,5 +1,5 @@
 ﻿// GenKey.exe generates a cryptographically secure sequence of hex-encoded bytes.
-// Copyright( C ) 2023 Timothy J. Bruce
+// Copyright( C ) 2025 Timothy J. Bruce
 
 /*
     This program is free software: you can redistribute it and/or modify
@@ -113,7 +113,7 @@ namespace Icod.GenKey {
 		private static void PrintCopyright() {
 			var copy = new System.String[] {
 				"GenKey.exe generates a cryptographically secure sequence of hex-encoded bytes.",
-				"Copyright( C ) 2023 Timothy J. Bruce",
+				"Copyright( C ) 2025 Timothy J. Bruce",
 				"",
 				"This program is free software: you can redistribute it and / or modify",
 				"it under the terms of the GNU General Public License as published by",
